@@ -14,7 +14,9 @@ const HomePage = () => {
         href="tel:+40744827373"
         style={{ textDecoration: "none", color: "black" }}
       >
-        <p className="telefon">Sunați la: 0744827373</p>
+        <p className="telefon">
+          Apăsați să sunați <br /> 0744827373
+        </p>
       </a>
 
       <h2 className="h2">
