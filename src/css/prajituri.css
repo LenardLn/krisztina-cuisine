@@ -1,0 +1,87 @@
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.prajitura-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.prajitura-card {
+  margin: 6rem 0;
+  display: grid;
+  place-items: center;
+}
+
+.descriere {
+  padding-left: 10px;
+}
+
+.nume {
+  font-size: clamp(1.65rem, 1.85rem, 2.15rem);
+  padding-bottom: 10px;
+}
+
+.pret {
+  text-decoration: underline;
+  font-size: clamp(1rem, 1.4rem, 1.5rem);
+}
+
+.prajituri {
+  margin-top: 1rem;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 20px;
+  border: 2px solid hotpink;
+}
+
+.up-button {
+  position: fixed;
+  background-color: hotpink;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.up-button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .prajitura-section {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
+  .nume {
+    font-size: clamp(1.25rem, 1.5rem, 1.75rem);
+  }
+
+  .pret {
+    font-size: clamp(0.76rem, 1.1rem, 1.43rem);
+  }
+
+  .prajituri {
+    width: 18rem;
+    height: 25vh;
+  }
+
+  .up-button {
+    bottom: 1rem;
+    right: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
