@@ -3,72 +3,72 @@
     "id": 1,
     "nume": "Foi cu cremă de lămâie/ portocale",
     "pret": "70 lei/kg",
-    "img": "/assets/foi_cu_lamaie.webp"
+    "img": "/assets/foi_cu_lamaie.svg"
   },
   {
     "id": 2,
-    "nume": "Ruladă cu cremă de ciocolată/ caramel",
+    "nume": "Ruladă cu cremă de caramel/ ciocolată",
     "pret": "75 lei/kg",
-    "img": "/assets/rulada.webp"
+    "img": "/assets/rulada.svg"
   },
   {
     "id": 3,
     "nume": "Foi cu miere (albinița)",
     "pret": "70 lei/kg",
-    "img": "/assets/albinita.webp"
+    "img": "/assets/albinita.svg"
   },
   {
     "id": 4,
     "nume": "Nuci",
     "pret": "70 lei/kg",
-    "img": "/assets/nuci.webp"
+    "img": "/assets/nuci.svg"
   },
   {
     "id": 5,
     "nume": "Kinder felie de lapte",
     "pret": "70 lei/kg",
-    "img": "/assets/kinder.webp"
+    "img": "/assets/kinder.svg"
   },
   {
     "id": 6,
     "nume": "Prăjitură cu blat de nucă și cremă de cacao",
     "pret": "70 lei/kg",
-    "img": "/assets/prajitura_buna.webp"
+    "img": "/assets/prajitura_buna.svg"
   },
   {
     "id": 7,
     "nume": "Mini cremeș",
     "pret": "60 lei/kg",
-    "img": "/assets/mini_cremes.webp"
+    "img": "/assets/mini_cremes.svg"
   },
   {
     "id": 8,
-    "nume": "Brioșe cu lămâie/portocale cu glazură albă",
+    "nume": "Brioșe cu lămâie/ portocale cu glazură albă",
     "pret": "50 lei/kg",
-    "img": "/assets/briose.webp"
+    "img": "/assets/briose.svg"
   },
   {
     "id": 9,
     "nume": "Blat din biscuiți cu rom și glazură",
     "pret": "50 lei/kg",
-    "img": "/assets/sport.webp"
+    "img": "/assets/sport.svg"
   },
   {
     "id": 10,
     "nume": "Biluțe din biscuiți, nucă și cacao",
     "pret": "50 lei/kg",
-    "img": "/assets/bilute.webp"
+    "img": "/assets/bilute.svg"
   },
   {
     "id": 11,
     "nume": "Ciocolată de casă",
     "pret": "50 lei/kg",
-    "img": "/assets/ciocolata_de_casa.webp"
+    "img": "/assets/ciocolata_de_casa.svg"
   },
   {
     "id": 12,
     "nume": "Sărățele cu cașcaval",
     "pret": "60 lei/kg",
-    "img": "/assets/saratele.webp"
+    "img": "/assets/saratele.svg"
   }
 ]
