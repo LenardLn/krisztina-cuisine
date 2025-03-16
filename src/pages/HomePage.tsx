@@ -6,6 +6,10 @@ const HomePage = () => {
     <div className="intro">
       <header>
         <h1> Bun venit la Krisztina Cuisine 👋</h1>
+        <h2 style={{ margin: "1rem", color: "red" }}>
+          <span style={{ textDecoration: "underline" }}>NOU</span> Pască cu
+          brânză dulce! 40lei/kg
+        </h2>
       </header>
       <p style={{ fontWeight: "bold" }}>
         Pe această pagină puteți vedea catalogul meu de prăjituri!
