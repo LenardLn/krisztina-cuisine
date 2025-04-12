@@ -10,6 +10,10 @@ const HomePage = () => {
           <span style={{ textDecoration: "underline" }}>NOU</span> Pască cu
           brânză dulce! 36lei/kg
         </h2>
+        <h2 style={{ margin: "1rem", color: "red" }}>
+          <span style={{ textDecoration: "underline" }}>NOU</span> Cosuleț cu
+          gem de caise și bezea cu nucă 50lei/kg
+        </h2>
       </header>
       <p style={{ fontWeight: "bold" }}>
         Pe această pagină puteți vedea catalogul meu de prăjituri!

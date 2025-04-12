@@ -76,5 +76,11 @@
     "nume": "Pască cu brânză dulce",
     "pret": "36 lei/kg",
     "img": "/assets/pasca.svg"
+  },
+  {
+    "id": 14,
+    "nume": "Cosuleț cu gem de caise și bezea cu nucă",
+    "pret": "50 lei/kg",
+    "img": "/assets/cosulet.svg"
   }
 ]
