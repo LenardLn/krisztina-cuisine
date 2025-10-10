@@ -50,4 +50,13 @@
   border-radius: 50%;
   border-style: ridge;
   border-width: 15px;
+  width: 20vw;
+  height: 20vw;
+}
+
+@media (max-width: 1200px) {
+  .nou-praji {
+    width: 18rem;
+    height: 18rem;
+  }
 }

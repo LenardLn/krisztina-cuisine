@@ -39,9 +39,8 @@ const HomePage = () => {
         href="tel:+40744827373"
         style={{
           textDecoration: "none",
-          color: "black",
-          border: "3px solid",
           borderRadius: "12px",
+          color: "black",
           padding: "0.5rem 1rem",
           display: "inline-block",
           transition: "border-color 0.6s ease",
