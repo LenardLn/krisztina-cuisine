@@ -82,5 +82,11 @@
     "nume": "Cosuleț cu gem de caise și bezea cu nucă",
     "pret": "50 lei/kg",
     "img": "/assets/cosulet.svg"
+  },
+  {
+    "id": 15,
+    "nume": "Tort cu mousse de ciocolată cu lapte și ciocolată albă",
+    "pret": "80 lei/kg",
+    "img": "/assets/mousse.svg"
   }
 ]

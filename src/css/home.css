@@ -44,3 +44,10 @@
 .h2:hover::after {
   padding-left: 10px;
 }
+
+.nou-praji {
+  transition: all 0.25s ease-in-out;
+  border-radius: 50%;
+  border-style: ridge;
+  border-width: 15px;
+}
