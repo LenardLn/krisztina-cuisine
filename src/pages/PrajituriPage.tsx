@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const PrajituriPage = () => {
-  const { prajituri } = usePraji();
+  const { prajituri, loading } = usePraji();
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -13,6 +13,11 @@ const PrajituriPage = () => {
       once: false,
     });
   }, []);
+
+  if (loading)
+    return (
+      <div style={{ textAlign: "center", marginTop: "2rem" }}>loading...</div>
+    );
 
   return (
     <>
