@@ -3,90 +3,114 @@
     "id": 1,
     "nume": "Foi cu cremă de lămâie/ portocale",
     "pret": "70 lei/kg",
-    "img": "/assets/foi_cu_lamaie.svg"
+    "img": "/assets/foi_cu_lamaie.webp"
   },
   {
     "id": 2,
     "nume": "Ruladă cu cremă de caramel/ ciocolată",
     "pret": "75 lei/kg",
-    "img": "/assets/rulada.svg"
+    "img": "/assets/rulada.webp"
   },
   {
     "id": 3,
     "nume": "Foi cu miere (albinița)",
     "pret": "70 lei/kg",
-    "img": "/assets/albinita.svg"
+    "img": "/assets/albinita.webp"
   },
   {
     "id": 4,
     "nume": "Nuci",
     "pret": "70 lei/kg",
-    "img": "/assets/nuci.svg"
+    "img": "/assets/nuci.webp"
   },
   {
     "id": 5,
     "nume": "Kinder felie de lapte",
     "pret": "70 lei/kg",
-    "img": "/assets/kinder.svg"
+    "img": "/assets/kinder.webp"
   },
   {
     "id": 6,
     "nume": "Prăjitură cu blat de nucă și cremă de cacao",
     "pret": "70 lei/kg",
-    "img": "/assets/prajitura_buna.svg"
+    "img": "/assets/prajitura_buna.webp"
   },
   {
     "id": 7,
     "nume": "Mini cremeș",
     "pret": "60 lei/kg",
-    "img": "/assets/mini_cremes.svg"
+    "img": "/assets/mini_cremes.webp"
   },
   {
     "id": 8,
     "nume": "Brioșe cu lămâie/ portocale cu glazură albă",
     "pret": "50 lei/kg",
-    "img": "/assets/briose.svg"
+    "img": "/assets/briose.webp"
   },
   {
     "id": 9,
     "nume": "Blat din biscuiți cu rom și glazură",
     "pret": "50 lei/kg",
-    "img": "/assets/sport.svg"
+    "img": "/assets/sport.webp"
   },
   {
     "id": 10,
     "nume": "Biluțe din biscuiți, nucă și cacao",
     "pret": "50 lei/kg",
-    "img": "/assets/bilute.svg"
+    "img": "/assets/bilute.webp"
   },
   {
     "id": 11,
     "nume": "Ciocolată de casă",
     "pret": "50 lei/kg",
-    "img": "/assets/ciocolata_de_casa.svg"
+    "img": "/assets/ciocolata_de_casa.webp"
   },
   {
     "id": 12,
     "nume": "Sărățele cu cașcaval",
     "pret": "60 lei/kg",
-    "img": "/assets/saratele.svg"
+    "img": "/assets/saratele.webp"
   },
   {
     "id": 13,
     "nume": "Pască cu brânză dulce",
-    "pret": "36 lei/kg",
-    "img": "/assets/pasca.svg"
+    "pret": "40 lei/kg",
+    "img": "/assets/pasca.webp"
   },
   {
     "id": 14,
     "nume": "Cosuleț cu gem de caise și bezea cu nucă",
-    "pret": "50 lei/kg",
-    "img": "/assets/cosulet.svg"
+    "pret": "60 lei/kg",
+    "img": "/assets/cosulet.webp"
   },
   {
     "id": 15,
     "nume": "Tort cu mousse de ciocolată cu lapte și ciocolată albă",
     "pret": "80 lei/kg",
-    "img": "/assets/mousse.svg"
+    "img": "/assets/mousse.webp"
+  },
+  {
+    "id": 16,
+    "nume": "Biscuiți argentinieni cu cremă de cacao și cocos",
+    "pret": "50 lei/kg",
+    "img": "/assets/biscuiti_argentinieni.webp"
+  },
+  {
+    "id": 17,
+    "nume": "Biscuiți crăpați",
+    "pret": "60 lei/kg",
+    "img": "/assets/biscuiti_crapati.webp"
+  },
+  {
+    "id": 18,
+    "nume": "Prăjitură Greta Garbo / Zserbo",
+    "pret": "60 lei/kg",
+    "img": "/assets/zserbo.webp"
+  },
+  {
+    "id": 19,
+    "nume": "Biscuiți cu Gem / Linzer",
+    "pret": "50 lei/kg",
+    "img": "/assets/linzer.webp"
   }
 ]

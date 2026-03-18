@@ -16,18 +16,22 @@ const HomePage = () => {
   return (
     <div className="intro">
       <header>
-        <h1>Bun venit la Krisztina Cuisine 👋</h1>
+        <h1>
+          Bun venit la Krisztina Cuisine <span className="wave">👋</span>
+        </h1>
         <h2 style={{ margin: "1rem", color: "red" }}>
-          <span style={{ textDecoration: "underline" }}>NOU</span> Tort cu
-          mousse de ciocolată cu lapte și ciocolată albă 80lei/kg
+          <span style={{ textDecoration: "underline", marginRight: "1rem" }}>
+            OFERTĂ DE PAȘTE!
+          </span>
+          Pască cu brânză dulce la 40 lei/kg!
         </h2>
         <img
           className="nou-praji"
-          src="/assets/mousse.svg"
+          src="/assets/pasca.webp"
           alt="mousse picture"
           style={{
             borderColor: borderState ? "hotpink" : "pink",
-            boxShadow: `0 0 20px 7.5px  ${borderState ? "hotpink" : "pink"}`,
+            boxShadow: `0 0 7.5px 7.5px  ${borderState ? "hotpink" : "pink"}`,
           }}
         />
       </header>

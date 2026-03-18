@@ -24,23 +24,17 @@ const PrajituriPage = () => {
       <h1>Menu</h1>
       <section id="#top" className="prajitura-section">
         {prajituri.map((prajitura) => (
-          <div
-            key={prajitura.id}
-            className="prajitura-card "
-            data-aos="fade-up"
-          >
+          <div key={prajitura.id} className="prajitura-card" data-aos="fade-up">
+            {prajitura.img && (
+              <div className="image-wrapper">
+                <img loading="lazy" src={prajitura.img} alt={prajitura.nume} />
+              </div>
+            )}
+
             <div className="descriere">
               <h2 className="nume">{prajitura.nume}</h2>
-              <p className="pret">{prajitura.pret}</p>
+              <p className="pret">{prajitura.pret} lei</p>
             </div>
-
-            {prajitura.img && (
-              <img
-                className="prajituri"
-                src={prajitura.img}
-                alt={prajitura.nume}
-              />
-            )}
           </div>
         ))}
         <button className="up-button">

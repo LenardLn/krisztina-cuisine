@@ -1,57 +1,94 @@
 h1 {
   text-align: center;
-  margin-top: 2rem;
-  font-size: 4rem;
+  margin: 2rem 0;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  letter-spacing: 1px;
 }
 
 .prajitura-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
-  width: 80vw;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 3rem;
+  width: 85vw;
+  margin: 0 auto 3rem auto;
 }
 
 .prajitura-card {
-  margin: 6rem 0;
-  display: grid;
-  place-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.prajitura-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+.image-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.prajitura-card:hover .image-wrapper img {
+  transform: scale(1.08);
 }
 
 .descriere {
-  padding-left: 10px;
+  padding: 1.2rem;
+  text-align: center;
 }
 
 .nume {
-  font-size: clamp(1.65rem, 1.85rem, 2.15rem);
-  padding-bottom: 10px;
+  font-size: clamp(1.3rem, 1.6rem, 1.8rem);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .pret {
-  text-decoration: underline;
-  font-size: clamp(1rem, 1.4rem, 1.5rem);
+  font-size: clamp(1rem, 1.2rem, 1.4rem);
+  color: deeppink;
+  font-weight: bold;
 }
 
-.prajituri {
-  margin-top: 1rem;
-  width: 20vw;
-  height: 20vw;
-  border-radius: 20px;
-  border: 2px solid hotpink;
+.descriere::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 2px;
+  margin: 0 auto 0.8rem auto;
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .up-button {
   position: fixed;
-  background-color: hotpink;
-  width: 3rem;
-  height: 3rem;
-  font-size: 2rem;
+  background: linear-gradient(135deg, hotpink, deeppink);
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 1.8rem;
   border-radius: 50%;
-  bottom: 1rem;
-  right: 0.5rem;
+  bottom: 1.5rem;
+  right: 1rem;
   border: none;
   cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+  transition: all 0.3s ease;
+}
+
+.up-button:hover {
+  transform: scale(1.1);
 }
 
 .up-button a {
@@ -59,29 +96,21 @@ h1 {
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .prajitura-section {
-    grid-template-columns: 1fr;
-    margin: 0 auto;
+    width: 90vw;
+    gap: 2rem;
   }
 
-  .nume {
-    font-size: clamp(1.25rem, 1.5rem, 1.75rem);
-  }
-
-  .pret {
-    font-size: clamp(0.76rem, 1.1rem, 1.43rem);
-  }
-
-  .prajituri {
-    width: 18rem;
-    height: 18rem;
+  .descriere {
+    padding: 1rem;
   }
 
   .up-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    right: 0.5rem;
     bottom: 1rem;
-    right: 0.1rem;
-    width: 2rem;
-    height: 2rem;
   }
 }
