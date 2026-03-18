@@ -20,7 +20,13 @@ const HomePage = () => {
           Bun venit la Krisztina Cuisine <span className="wave">👋</span>
         </h1>
         <h2 style={{ margin: "1rem", color: "red" }}>
-          <span style={{ textDecoration: "underline", marginRight: "1rem" }}>
+          <span
+            style={{
+              textDecoration: "underline",
+              marginRight: "1rem",
+              display: "block",
+            }}
+          >
             OFERTĂ DE PAȘTE!
           </span>
           Pască cu brânză dulce la 40 lei/kg!
